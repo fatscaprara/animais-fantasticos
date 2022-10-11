@@ -10,7 +10,7 @@ import initFuncionamento from "./modules/funcionamento.js";
 import initFetchAnimais from "./modules/fetch-animais.js";
 import initFetchBitcoin from "./modules/fetch-bitcoin.js";
 
-const scrollSuave = new ScrollSuave("[data-menu='suave'] a[href^='#']");
+const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
 
 initAnimacaoScroll();
