@@ -24,5 +24,6 @@ export default class Accordion {
 
       this.addAccordionEvent();
     }
+    return this;
   }
 }
